@@ -68,11 +68,4 @@ public class MessageUtilsTest {
     swimmingPool s1 = new swimmingPool();
     assertEquals(160,s1.swimming(5, 7 ,false,false,12));
   }
-
-  @Test
-  void test11() throws Exception {
-    swimmingPool s1 = new swimmingPool();
-    assertEquals(-1,s1.swimming(5,7,true,false,4));
-  }
-
 }

@@ -17,6 +17,11 @@ public class MessageUtilsTest {
   }
   
   @Test
+  void test01-01() throws Exception {
+    swimmingPool s1 = new swimmingPool();
+    assertEquals(-1,s1.swimming(1,2,true,false,6));
+  }
+  @Test
   void test02() throws Exception {
     swimmingPool s1 = new swimmingPool();
     assertEquals(100, s1.swimming(2, 9, true, true,12));

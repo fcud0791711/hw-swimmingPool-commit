@@ -38,8 +38,6 @@ public class MessageUtilsTest {
     swimmingPool s1 = new swimmingPool();
     assertEquals(-1,s1.swimming(4, 90 ,false,true,11));
   }
-  
-  /*å¼±æ¶µ?‹ç???/
   @Test
   void test06() throws Exception {
     swimmingPool s1 = new swimmingPool();
